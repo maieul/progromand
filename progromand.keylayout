@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-10-19 at 19:36 (UTC+02:00)-->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 20:00 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 20:07 (UTC+02:00)-->
 <keyboard group="0" id="5685" name="Suisse romand pour programmation" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -60,7 +60,7 @@
             <key code="7" output="x"/>
             <key code="8" output="c"/>
             <key code="9" output="v"/>
-            <key code="10" output="§"/>
+            <key code="10" output="¶"/>
             <key code="11" output="b"/>
             <key code="12" output="q"/>
             <key code="13" output="w"/>
@@ -400,7 +400,7 @@
             <key code="11" output="∫"/>
             <key code="12" output="œ"/>
             <key code="13" output="∑"/>
-            <key code="14" output="€"/>
+            <key code="14" output="ê"/>
             <key code="15" output="®"/>
             <key code="16" output="Ω"/>
             <key code="17" output="†"/>
@@ -422,7 +422,7 @@
             <key code="33" output="§"/>
             <key code="34" output="¡"/>
             <key code="35" output="π"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" output="€"/>
             <key code="37" output="|"/>
             <key code="38" output="º"/>
             <key code="39" output="æ"/>
