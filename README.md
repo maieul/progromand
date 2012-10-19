@@ -10,7 +10,7 @@ Comme pour le clavier français :
 * alt + maj + 8 => [
 * alt + maj + 9 => ]
 
-Autres :
+# Autres :
 - alt + l => |
 - alt + y => /
 - alt + maj + y => \
