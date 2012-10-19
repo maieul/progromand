@@ -23,3 +23,6 @@ Comme pour le clavier français :
 # Autres français
 - alt + c => ç
 - alt + u => ù
+- alt + e -> ê
+- alt + $ => €
+- alt + § => ¶ 
