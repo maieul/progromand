@@ -26,3 +26,4 @@ Comme pour le clavier français :
 - alt + e -> ê
 - alt + $ => €
 - alt + § => ¶ 
+- alt + i => î
