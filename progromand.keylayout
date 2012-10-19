@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.3 on 2012-10-19 at 19:36 (UTC+02:00)-->
-<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 19:53 (UTC+02:00)-->
+<!--Last edited by Ukelele version 2.2.3 on 2012-10-19 at 19:54 (UTC+02:00)-->
 <keyboard group="0" id="5685" name="Suisse romand pour programmation" maxout="1">
     <layouts>
         <layout first="0" last="0" modifiers="30" mapSet="138"/>
@@ -204,7 +204,7 @@
             <key code="39" output="ä"/>
             <key code="40" output="K"/>
             <key code="41" output="ö"/>
-            <key code="42" output="£"/>
+            <key code="42" output="&#x0022;"/>
             <key code="43" output=";"/>
             <key code="44" output="_"/>
             <key code="45" action="18"/>
