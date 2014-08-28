@@ -1,4 +1,5 @@
 all:progromand.keylayout
-	rm -f ~/Library/Keyboard\ Layouts/progromand.keylayout
-	cp progromand.keylayout ~/Library/Keyboard\ Layouts/
-	cp progromand.icns ~/Library/Keyboard\ Layouts/
+	sudo rm -f /Library/Keyboard\ Layouts/progromand.keylayout
+	sudo rm -f /Library/Keyboard\ Layouts/progromand.icns
+	sudo cp progromand.keylayout /Library/Keyboard\ Layouts/
+	sudo cp progromand.icns /Library/Keyboard\ Layouts/
