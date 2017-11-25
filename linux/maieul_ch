@@ -6,6 +6,9 @@
 // É sur MAJ + é
 // | sur ALTGR + l
 // Accent aigu en touche mort sur Alt+Gr+^ 
+// Tiret d'incise sur ALTGR+-
+// Point de suspension sur ALTGR+MAJ+. 
+// Point median sur ALTGR+.
 default  partial alphanumeric_keys
 
 partial alphanumeric_keys
@@ -30,5 +33,7 @@ xkb_symbols "fr_maieul" {
 		override
     key <AE12> {
 			[ dead_circumflex, dead_grave, dead_tilde, dead_acute] };
+		override key <AB09>{[dot,colon,midpoint,ellipsis]};
+    override key <AB10> {[minus, underscore,U2014] };
 };
 
