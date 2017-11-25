@@ -1,4 +1,11 @@
-// Configuration perso Maïeul, pour le moment juste réussir à accéder au e cedille
+// Configuration perso Maïeul, 
+// e cedille sur sur ALTGR+E
+// € sur ALTGR+MAJ+E
+// À sur MAJ + à
+// È sur MAJ + é
+// É sur MAJ + é
+// | sur ALTGR + l
+// Accent aigu en touche mort sur Alt+Gr+^ 
 default  partial alphanumeric_keys
 
 partial alphanumeric_keys
@@ -7,8 +14,21 @@ xkb_symbols "fr_maieul" {
     include "ch(fr)"
     name[Group1]= "French (Switzerland) - Maïeul";
 
-    override key <AD03> {
-	[ e,	E,	Eurosign, U0229	]
+    override key <AD03> {[e,E,U0229,EuroSign]};//eucedille
+    override key <AB06> {[n,N,dead_tilde,enopencircbullet]};
+    override key <AC03> {[d,D,U0023,NoSymbol]	};
+    override key <AC09> {[l,L,bar,caret]};
+    override key <AD11> {
+			[ egrave,	Egrave	]
     };
+    override key <AC10> {
+			[ eacute,	Eacute]
+    };
+    override key <AC11> {
+			[ agrave,	Agrave]
+    };
+		override
+    key <AE12> {
+			[ dead_circumflex, dead_grave, dead_tilde, dead_acute] };
 };
 
