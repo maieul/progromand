@@ -21,7 +21,7 @@ xkb_symbols "fr_maieul" {
     name[Group1]= "French (Switzerland) - Maïeul";
 
     override key <AD03> {[e,E,U0229,EuroSign]};//eucedille
-    override key <AB06> {[n,N,dead_tilde,enopencircbullet]};
+    override key <AB06> {[n,N,U07E,enopencircbullet]};
     override key <AC03> {[d,D,U0023,NoSymbol]	};
     override key <AC09> {[l,L,bar,caret]};
     override key <AD11> {
