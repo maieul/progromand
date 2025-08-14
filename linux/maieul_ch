@@ -1,6 +1,6 @@
-// Configuration perso Maïeul, 
-// e cedille sur sur ALTGR+E
-// € sur ALTGR+MAJ+E
+// Configuration perso Maïeul,
+// € cedille sur sur ALTGR+E
+// e sur ALTGR+MAJ+E
 // # sur ALTGR+D
 // À sur MAJ + à
 // ç sur ALTGR+C
@@ -8,9 +8,9 @@
 // È sur MAJ + é
 // É sur MAJ + é
 // | sur ALTGR + l
-// Accent aigu en touche mort sur Alt+Gr+^ 
+// Accent aigu en touche mort sur Alt+Gr+^
 // Tiret d'incise sur ALTGR+-
-// Point de suspension sur ALTGR+MAJ+. 
+// Point de suspension sur ALTGR+MAJ+.
 // Point median sur ALTGR+.
 default  partial alphanumeric_keys
 
@@ -20,7 +20,7 @@ xkb_symbols "fr_maieul" {
     include "ch(fr)"
     name[Group1]= "French (Switzerland) - Maïeul";
 
-    override key <AD03> {[e,E,U0229,EuroSign]};//eucedille
+    override key <AD03> {[e,E,EuroSign,U0229]};//eucedille
     key <AD07> {[u,U,ugrave,Ugrave]};
     override key <AB06> {[n,N,U07E,enopencircbullet]};
     override key <AC03> {[d,D,U0023,NoSymbol]	};
