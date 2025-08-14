@@ -7,7 +7,12 @@
 // © sur ALTGR+MAJ+C
 // È sur MAJ + é
 // É sur MAJ + é
-// | sur ALTGR + l
+// | sur ALTGR + l et sur ALTGR+MAJ+7
+// \ sur ALTGR + 7 (parce que mon clavier physique est pourri)
+// < sur ALTGR + y (parce que mon clavier physique est pourri)
+// « sur ALTGR + MAJ + y  (parce que mon clavier physique est pourri, et que les logiciels s'occupent tout seuls de mettre les guillemets fr)
+// > sur ALTGR + x (parce que mon clavier physique est pourri)
+// » sur ALTGR + MAJ + x  (parce que mon clavier physique est pourri, et que les logiciels s'occupent tout seuls de mettre les guillemets fr)
 // Accent aigu en touche mort sur Alt+Gr+^
 // Tiret d'incise sur ALTGR+-
 // Point de suspension sur ALTGR+MAJ+.
@@ -40,5 +45,8 @@ xkb_symbols "fr_maieul" {
 		override key <AB09>{[dot,colon,midpoint,ellipsis]};
     override key <AB10> {[minus, underscore,U2014] };
     override key <AB03> {[c,C,U00E7,U00A9]};
+    override key <AB01>	{[	y,	Y,	U003C, U00AB]};
+    override key <AB02>	{[	x,	X,	U003E, U00BB]};
+    override key <AE07>	{[	7,	slash,		backslash, bar	]};
 };
 
