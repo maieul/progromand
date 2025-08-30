@@ -7,6 +7,7 @@
 // © sur ALTGR+MAJ+C
 // È sur MAJ + é
 // É sur MAJ + é
+// $ sur ALTGR + s (parce que mon clavier physique est pourri, et que j'écris jamais d'allemand donc le ß je m'en fiche un peu)
 // | sur ALTGR + l et sur ALTGR+MAJ+7
 // \ sur ALTGR + 7 (parce que mon clavier physique est pourri)
 // < sur ALTGR + y (parce que mon clavier physique est pourri)
@@ -48,5 +49,6 @@ xkb_symbols "fr_maieul" {
     override key <AB01>	{[	y,	Y,	U003C, U00AB]};
     override key <AB02>	{[	x,	X,	U003E, U00BB]};
     override key <AE07>	{[	7,	slash,		backslash, bar	]};
+    override key <AC02>	{[          s,          S,            dollar,          U1E9E ]}; // ſ ẞ
 };
 
