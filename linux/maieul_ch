@@ -20,6 +20,7 @@
 // Tiret d'incise sur ALTGR+-
 // Point de suspension sur ALTGR+MAJ+.
 // Point median sur ALTGR+.
+// } sur ALTGR + MAJ + à (parce que mon clavier physique est pourri)
 default  partial alphanumeric_keys
 
 partial alphanumeric_keys
@@ -39,9 +40,7 @@ xkb_symbols "fr_maieul" {
     override key <AC10> {
 			[ eacute,	Eacute]
     };
-    override key <AC11> {
-			[ agrave,	Agrave]
-    };
+    override key <AC11> {[ agrave,	Agrave, braceleft, braceright]};
 		override
     key <AE12> {
 			[ dead_circumflex, dead_grave, dead_tilde, dead_acute] };
